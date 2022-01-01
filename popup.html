@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chromeit</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link rel ="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="modal-header">
+        <h1 class="logo">
+            <img src="images/coffee-icon.png" alt="Launcher" class = "logo-icon"> Chromeit <span class="version">(1.0.0)</span>
+        </h1>
+    </div>
+    <div class="modal-content">
+        <p>Easy Access frequent websites</p>
+    </div>
+    <div class="modal-icons">
+        <div class="flex-container">
+            <div class="flex">
+                <a href="https://www.youtube.com" target="_blank">
+                    <i class="fa fa-youtube" style="color:rgb(206, 25, 25) "></i>
+                </a>
+            </div>
+            <div class="flex">
+                <a href="https://github.com/Shivam033/" target="_blank">
+                    <i class="fa fa-github" style="color:rgb(39, 26, 22) "></i>
+                </a>
+            </div>
+            <div class="flex">
+                <a href="https://www.facebook.com/" target="_blank">
+                    <i class="fa fa-facebook" style="color:rgb(34, 101, 189) "></i>
+                </a>
+            </div>
+            <div class="flex">
+                <a href="https://www.linkedin.com/in/shivam-sharma-3b6345152" target="_blank">
+                    <i class="fa fa-linkedin" style="color:rgb(28, 132, 230) "></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="tog1">
+      <p id="enable_msg">Enable Ad-blocker</p>
+    </div>
+    <div class="toggled">
+      
+      <label class="switch">
+        <input type = "checkbox" id="abc"/>
+        <span class="slider"></span>
+      </label>
+    </div>
+    <div class="tog2">
+      <p id="msg" >Adblocker is active.</p>
+    </div>
+    <script src="background.js"></script>
+</body>
+</html>
